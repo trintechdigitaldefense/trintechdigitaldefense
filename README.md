@@ -20,7 +20,7 @@ TrinTech Digital Defense is a Trinidad & Tobago-based cybersecurity firm focused
 We deliver **authorized** network audits, continuous monitoring, and active deception — with clear reports and actionable remediation. Every engagement starts with a signed NDA and Rules of Engagement.
 
 **Founder:** Jason Ramdharry  
-Based in Trinidad & Tobago · Serving the wider Caribbean
+Based in Trinidad & Tobago — serving Trinidad & Tobago and the wider Caribbean.
 
 ---
 
@@ -110,7 +110,7 @@ Trinidad & Tobago 🇹🇹
 <div align="center">
 
 **Authorized defensive use only.**  
-Unauthorized access to computer systems is illegal under the Trinidad & Tobago Cybercrime Act and applicable laws.
+Unauthorized access is illegal under the Trinidad & Tobago Computer Misuse Act and applicable laws.
 
 *Defend. Detect. Dominate.*
 
