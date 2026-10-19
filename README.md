@@ -24,60 +24,39 @@ Based in Trinidad & Tobago — serving Trinidad & Tobago and the wider Caribbean
 
 ---
 
-## Core Platform
+## Flagship platforms
 
-We focus on three production tools that work together:
+The public defense line matches the [pricing page](https://trintechdigitaldefense.github.io): Sentinel, Mirage, and CyberGuardian.
 
-### 1. FortifyOne — Network Audit Engine
-**The primary tool for professional security assessments.**
-
-- Full network discovery and inventory  
-- Vulnerability identification  
-- Credentialed hardening reviews  
-- Web application assessment  
-- Professional multi-page PDF reports + evidence packs  
-- Engagement letter and clear authorization tracking  
-
-→ [github.com/trintechdigitaldefense/fortifyone](https://github.com/trintechdigitaldefense/fortifyone)
-
-### 2. Sentinel — Continuous Line of Defense
-**Always-on monitoring and early warning for SMB networks.**
-
-- Filesystem integrity monitoring (FIM)  
-- Reverse-shell and suspicious process detection  
-- SSH brute-force protection  
-- Active canary / deception files  
-- Persistence hunting  
-- Client-ready PDF reports  
+### 1. Sentinel — Line of Defense Engine
+**Core sold product.** FIM, SSH brute-force blocking, reverse-shell detection, active deception, hardening checks, and client reports.
 
 → [github.com/trintechdigitaldefense/Sentinel](https://github.com/trintechdigitaldefense/Sentinel)
 
-### 3. Mirage — Active Deception Layer
-**Lightweight honeypots and decoys that turn attacker interaction into clear alerts.**
-
-- Fake services (SSH, HTTP, SMB, etc.)  
-- Honey tokens and canary files  
-- Real-time alerts  
-- Designed for modest hardware and easy deployment  
+### 2. Mirage — Active deception
+**Sold standalone.** Fake services, honey tokens, and canary files that turn interaction into alerts.
 
 → [github.com/trintechdigitaldefense/Mirage](https://github.com/trintechdigitaldefense/Mirage)
 
-These three tools form a complete offering:  
-**Audit with FortifyOne → Protect continuously with Sentinel + Mirage.**
+### 3. CyberGuardian — Detection and gated response
+**Coordinating platform** for detection plus human-gated response (approval before isolate, kill, or block). Not a full SOC.
+
+→ [github.com/trintechdigitaldefense/cyberguardian](https://github.com/trintechdigitaldefense/cyberguardian)
 
 ---
 
-## Supporting Tools
+## Audit and monitoring line
 
-| Tool | Purpose |
-|------|---------|
-| [Apex-Recon](https://github.com/trintechdigitaldefense/Apex-Recon-) | External OSINT, SMB auditing, web scanning |
-| [trin-tech-audit](https://github.com/trintechdigitaldefense/trin-tech-audit) | Engagement management and professional PDF reporting |
-| [trintech-guardian](https://github.com/trintechdigitaldefense/trintech-guardian) | Active containment / IPS for audit environments |
-| [caribwatch](https://github.com/trintechdigitaldefense/caribwatch) | Caribbean-focused threat visibility |
-| [cyberaudit-dashboard](https://github.com/trintechdigitaldefense/cyberaudit-dashboard) | Live operations dashboard |
+Separate from the defense platforms. Still public.
 
-Older experimental and research tools are maintained in the background and are not part of the client-facing platform.
+| Tool | Role |
+|------|------|
+| [fortifyone](https://github.com/trintechdigitaldefense/fortifyone) | Professional network audit |
+| [Apex-Recon](https://github.com/trintechdigitaldefense/Apex-Recon-) | OSINT, SMB auditing, web scanning |
+| [cyberaudit-dashboard](https://github.com/trintechdigitaldefense/cyberaudit-dashboard) | Live audit operations console |
+| [caribwatch](https://github.com/trintechdigitaldefense/caribwatch) | Caribbean threat visibility |
+
+CyberFortress remains a separate incident-response pilot and is not archived. trintech-guardian is archived; its successor is CyberGuardian. trin-tech-audit is superseded by FortifyOne and kept for reference.
 
 ---
 
@@ -87,7 +66,7 @@ Older experimental and research tools are maintained in the background and are n
 |---------|-------------|
 | **Free Scoping Call** | 30-minute discussion to understand your environment and risk |
 | **Network Audit** | Full assessment with professional report and remediation roadmap |
-| **Continuous Protection** | Sentinel + Mirage deployed and monitored |
+| **Continuous Protection** | Sentinel, Mirage, and CyberGuardian — the monthly packages |
 | **Penetration Testing** | Web, network, and Android assessments |
 | **Cyber Fraud Investigation** | Digital forensics and incident support |
 
